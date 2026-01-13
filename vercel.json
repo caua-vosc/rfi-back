@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/submit-report.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "env": {
+    "NEXTCLOUD_WEBDAV_URL": "https://seu-nextcloud.com/remote.php/webdav",
+    "NEXTCLOUD_USER": "seu-usuario",
+    "NEXTCLOUD_PASSWORD": "sua-senha"
+  }
+}
